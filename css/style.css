@@ -1,0 +1,109 @@
+html {
+	box-sizing: border-box;
+	background-color: #D24940;
+}
+
+body {
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+}
+
+textarea:focus, input:focus, button:focus {
+    outline: 0;
+}
+
+.app {
+	width: 80%;
+	margin: 0 10% 0 10%;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+input {
+	font-family: 'Karla', sans-serif;
+	padding: 1rem 2.5rem;
+	width: 50%;
+	margin: 1rem;
+	font-size: 1.5rem;
+	border: solid 2px #c9c9c9;
+	border-top-left-radius: 2px;
+	background-image: url('http://i47.tinypic.com/r02vbq.png');
+	background-repeat: no-repeat;
+	background-position: -2% 50%;
+}
+
+button {
+	font-family: 'Karla', sans-serif;
+	padding: 1rem 2.5rem;
+	background-color: #DE3B30;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	margin: 1rem;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+ul {
+	padding-left: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	-webkit-transition: 0.5s all ease-in-out;
+	transition: 0.5s all ease-in-out;
+}
+
+.image-container {
+	width: 30%;
+}
+
+.resultImg {
+	width: 80%;
+	border: 0.75rem solid #fff;
+}
+
+.resultImg:hover {
+	border: 0.75rem solid #D24940;
+	border-radius: 5px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+/*==== ANIMATION ========*/
+
+.results.ng-show-add,
+.results.ng-show-remove {
+  display: block !important;
+  width: 100% !important;
+  position: relative;
+  opacity: 1;
+}
+
+.results.ng-show-remove,
+.results.ng-show-add.ng-show-add-active {
+  right: 150%;
+  opacity: 0;
+}
+
+.results.ng-show-remove.ng-show-remove-active,
+.results.ng-show-add {
+  right: 0%;
+  opacity: 1;
+}
+
+.status {
+	-webkit-transition:all linear 0.5s;
+  	transition:all linear 0.5s;
+}
+
+
+
+
