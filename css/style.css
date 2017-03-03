@@ -14,10 +14,14 @@ textarea:focus, input:focus, button:focus {
 
 .app {
 	width: 80%;
-	margin: 0 10% 0 10%;
+	margin: 20px auto;
 	background-color: #fff;
 	border-radius: 5px;
 	padding: 1rem;
+}
+
+.logo {
+  max-width: 100%;
 }
 
 input {
